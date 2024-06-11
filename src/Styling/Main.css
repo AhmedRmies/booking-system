@@ -1,0 +1,57 @@
+.main {
+  padding: 2rem 1rem;
+  background-color: #f1f4f6;
+  text-align: center;
+}
+
+.main h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #273457;
+}
+
+.packages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.package {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.package:hover {
+  transform: scale(1.05);
+}
+
+.package h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #273457;
+}
+
+.package p {
+  font-size: 1.2rem;
+  color: #3a3a3a;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #273457;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f8c000;
+  color: #273457;
+}

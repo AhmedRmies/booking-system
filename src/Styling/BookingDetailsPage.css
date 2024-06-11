@@ -1,0 +1,16 @@
+.booking-details-page {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .booking-details-page h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #273457;
+  }
+  
+  .booking-details-page p {
+    font-size: 1.2rem;
+    color: #3a3a3a;
+  }
+  
